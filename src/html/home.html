@@ -1,14 +1,28 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<img src="이미지 경로"
-     style="width:100px; height:100px;"><br>
-id :<input type="text"><br>
-pwd :<input type="password"><br>
-<input type="submit" value = "login">
-</body>
+  </head>
+
+
+  <form class="absolute-center-height absolute-center-width">
+    <!-- <img src="이미지 경로" class="login-img"  style="width: 300px; height: 100px" /> -->
+    <div class="form-group">
+      <label for="InputEmail1"></label>
+      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+      </div>
+      <button type="submit" style="width: 300px;"  class="btn">로그인</button>
+    </form>
+    <!-- <input type="text" class="absolute-center-height"/>
+    <input type="password" class="absolute-center-width" />
+    <input type="submit" value="login" /> -->
+  </body>
 </html>
