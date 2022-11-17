@@ -30,3 +30,7 @@ ul {
 .height-space {
     height: 100px;
 }
+
+#accent {
+    color: green;
+}

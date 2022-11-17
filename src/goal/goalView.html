@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/GoalDetailsPage.css" />
+    <link rel="stylesheet" href="./goalView.css" />
     <title>GoalDetailsPage</title>
 </head>
     <header>
@@ -24,16 +24,16 @@
     <div class="container">
         <div class="row justify-content-center line-space">
             <div class="col-4">
-                2022년 9월 30일 기준 <br>
-                목표 달성까지 112일 <br>
-                목표 금액 2,000,000원 <br>
-                현재 달성 금액 205,000원 <br>
-                목표 달성률 10% <br>
+                <a id="accent">2022년 9월 30일</a> 기준 <br>
+                목표 달성까지 <a id="accent">112일</a> <br>
+                목표 금액 <a id="accent">2,000,000원</a> <br>
+                현재 달성 금액 <a id="accent">205,000원</a> <br>
+                목표 달성률 <a id="accent">10%</a> <br>
             </div>
             <div class="col-5">
                 <table class="table">
                     <thead>
-                        목표달성 필요금액
+                        목표달성 필요금액 (단위 :원)
                     <tr class="table-active">
                         <th scope="col">하루(1일)</th>
                         <th scope="col">일주일(7일)</th>
@@ -42,9 +42,9 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>16,000</td>
+                        <td>112,000</td>
+                        <td>480,803</td>
                     </tr>
                     </tbody>
                 </table>
@@ -57,24 +57,25 @@
                     <table class="table">
                         <thead>
                         <tr class="table-active">
-                            <th scope="col">No.</th>
-                            <th scope="col">날짜</th>
-                            <th scope="col">금액</th>
-                            <th scope="col">목표명</th>
+
+                            <th class="col-md-2" scope="col">No.</th>
+                            <th class="col-md-2" scope="col">날짜</th>
+                            <th class="col-md-2" scope="col">금액</th>
+                            <th class="col-md-4" scope="col">목표명</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td>2023/01/20</td>
+                            <td>2,000,000</td>
+                            <td>친구와 제주도 여행</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
+                            <td>2023/03/03</td>
+                            <td>500,000</td>
+                            <td>내 휴대폰 마련</td>
                         </tr>
                         </tbody>
                     </table>

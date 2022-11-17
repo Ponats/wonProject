@@ -4,12 +4,12 @@
     <!-- bootstrap -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/MainPageStyle.css">
+    <link rel="stylesheet" href="./accMain.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
     <header>
-        <h2>#개의 목표 진행 중</h2>
+        <h2>2개의 목표 진행 중</h2>
         <nav>
             <ul>
                 <!-- nav바 혹은 버튼으로 할지 선택.. -->
@@ -29,7 +29,7 @@
 <form>
     <div class="goal-per-container">
         <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="상세 페이지로 이동" class="goal-prt-btn btn btn-default btn-lg">
-            <div class="col-1 mb-3">
+            <div class="col-1 mb-2">
                 친구와 제주도 여행
             </div>
             <div class="col-3 float-right">
@@ -37,7 +37,7 @@
             </div>
         </button>
         <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="상세 페이지로 이동" class="goal-prt-btn btn btn-default btn-lg">
-            <div class="col-1 mb-3">
+            <div class="col-1 mb-2">
                 내 휴대폰 마련
             </div>
             <div class="col-3 float-right">
@@ -45,7 +45,7 @@
             </div>
         </button>
     </div>
-    <div style="margin-left: 90px;">
+    <div style="margin-left: 90px; margin-bottom: 10px;">
         <input style="width: 150px;" type="date">
     </div>
     <!-- <div class="container text-center">
@@ -71,24 +71,26 @@
     
     <!-- 스크롤 형식으로 구현? 일단 모양만 만들어두고 나중에 어떻게 할지 생각.. -->
     
-    <div container>
+    <div class="container">
         <div class="row justify-content-center">
-        <div class="col-1">
-            <h3>날짜</h3>
-        </div>
-        <div class="col-4">
-            <h3>수입</h3>
-        </div>
-        <div class="col-4">
-            <h3>지출</h3>
-        </div>
-        <div class="col-2">
-            <h3>합계</h3>
+            <div class="col-2">
+                <h3>날짜</h3>
+            </div>
+            <div class="col-4">
+                <h3>수입</h3>
+            </div>
+            <div class="col-4">
+                <h3>지출</h3>
+            </div>
+            <div class="col-2">
+                <h3>합계</h3>
+            </div>
         </div>
     </div>
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-1">
-                8/29 목
+            <!-- 날짜 -->
+            <div class="col-2"> 
             </div>
             <div class="col-4">
                 <a id="money-income">1,000,000</a>
@@ -97,119 +99,56 @@
                 <a id="money-expenses">800,000</a>
             </div>
             <div class="col-2">
-                200,000
+                <a id="money-result">200,000</a>
             </div>
         </div>
+        <hr>
         <div class="row justify-content-center">
-            <div class="col-1">
-                8/30 화
+            <!-- 날짜 -->
+            <div class="col-2"> 
+                29 목요일
             </div>
-            <div class="col-4">
-                <a id="money-income">0</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">20,000</a>
+            <div class="col-6">
             </div>
             <div class="col-2">
-                180,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/1 목
-            </div>
-            <div class="col-4">
-                <a id="money-income">0</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">20,000</a>
-            </div>
-            <div class="col-2">
-                160,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/2 금
-            </div>
-            <div class="col-4">
-                <a id="money-income">100,000</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">0</a>
-            </div>
-            <div class="col-2">
-                260,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/5 월
-            </div>
-            <div class="col-4">
-                <a id="money-income">50,000</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">30,000</a>
-            </div>
-            <div class="col-2">
-                280,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/15 목
-            </div>
-            <div class="col-4">
-                <a id="money-income">0</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">40,000</a>
-            </div>
-            <div class="col-2">
-                240,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/24 토
-            </div>
-            <div class="col-4">
-                <a id="money-income">0</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">1,000</a>
-            </div>
-            <div class="col-2">
-                279,000
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-1">
-                9/29 목
-            </div>
-            <div class="col-4">
                 <a id="money-income">1,000,000</a>
             </div>
-            <div class="col-4">
-                <a id="money-expenses">0</a>
+            <div class="col-2">
+                <a id="money-expenses">330,000</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- 날짜 -->
+            <div class="col-2"> 
+            </div>
+            <div class="col-8">
+                월급
             </div>
             <div class="col-2">
-                1,279,000
+                <a id="money-income">1,000,000</a>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-1">
-                9/30 금
+            <!-- 날짜 -->
+            <div class="col-2"> 
             </div>
-            <div class="col-4">
-                <a id="money-income">0</a>
-            </div>
-            <div class="col-4">
-                <a id="money-expenses">2,000</a>
+            <div class="col-8">
+                적금
             </div>
             <div class="col-2">
-                1,277,000
+                <a id="money-expenses">300,000</a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- 날짜 -->
+            <div class="col-2"> 
+            </div>
+            <div class="col-8">
+                저녁밥
+            </div>
+            <div class="col-2">
+                <a id="money-expenses">30,000</a>
             </div>
         </div>
         <hr>
